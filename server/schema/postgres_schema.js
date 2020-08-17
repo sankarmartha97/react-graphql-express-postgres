@@ -2,9 +2,9 @@ const graphql = require('graphql');
 const connectionString = {
     "host": "localhost",
     "port": 5432,
-    "database": "book_author",
-    "user": "postgres",
-    "password":"rewq"
+    "database": "DB Name",
+    "user": "User",
+    "password":"Pass"
 };
 const pgp = require('pg-promise')();
 const db = {}
